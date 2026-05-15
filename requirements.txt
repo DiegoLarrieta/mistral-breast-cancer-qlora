@@ -1,0 +1,17 @@
+torch>=2.0
+transformers>=4.40
+peft>=0.10
+bitsandbytes>=0.43
+datasets>=2.19
+trl>=0.8
+accelerate>=0.29
+evaluate>=0.4
+rouge_score
+bert_score
+huggingface_hub
+sentencepiece
+protobuf
+scipy
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7

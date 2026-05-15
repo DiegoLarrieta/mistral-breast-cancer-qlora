@@ -1,0 +1,30 @@
+# Secrets
+.env
+
+# Claude Code local config
+.claude/
+
+# Data — lives on HuggingFace, not in git
+data/*.json
+data/*.csv
+data/*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Model weights — too large for git, pushed to HF Hub
+*.bin
+*.safetensors
+adapter_model/
